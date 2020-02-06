@@ -16,7 +16,7 @@ const NewsList = (props) => {
                 showIndicators={false} 
                 showStatus={false} 
                 stopOnHover={false}
-                interval={10000}
+                interval={15000}
             >
                 <div className={'merck-news'}>
                     <img src={title}/>
