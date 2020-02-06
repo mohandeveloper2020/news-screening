@@ -20,8 +20,8 @@ class App extends Component {
   // }
 
   componentDidMount() {
-    const google = `https://newsapi.org/v2/top-headlines?country=in&apiKey=6c13a32e23b643989e19a722674ca873`;
     const techcrunch = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=6c13a32e23b643989e19a722674ca873`;
+    const google = `https://newsapi.org/v2/top-headlines?country=in&apiKey=6c13a32e23b643989e19a722674ca873`;
     
     Promise.all( [fetch(`${techcrunch}`), fetch(`${google}`)] )
       .then(

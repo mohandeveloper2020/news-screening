@@ -29,8 +29,10 @@ body {
 }
 
 .news-title {
-  color: #FFF;
+  color: #FFC832;
+  text-shadow: 1px 1px 1px #333;
   font-size: 36px;
+  /* font-weight: bold; */
   margin: 20px auto;
   width: 80%;
   line-height: 36px;
@@ -38,16 +40,18 @@ body {
 
 .news-image img {
   object-fit: contain;
-  /* width: 60% !important; */
+  width: auto !important;
   height: calc(100vh - 400px);
   border-radius: 10px;
 }
 
 .news-description {
-  color: #CCC;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
   font-size: 18px;
   margin: 20px auto;
   width: 60%;
+  line-height: 26px;
 }
 
 
@@ -60,6 +64,10 @@ body {
 }
 
 .slider-wrapper {
-  background: url('../src/images/bg2.png') no-repeat;
+  background: url('../src/images/bg6.png') no-repeat;
+  /* background: #FFC832; */
+}
+
+.carousel .slide.selected {
   /* background: #FFC832; */
 }

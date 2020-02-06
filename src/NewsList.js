@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import title from '../src/images/news3.png';
 
+
 const NewsList = (props) => {
     return(
         <div>
@@ -15,7 +16,7 @@ const NewsList = (props) => {
                 showIndicators={false} 
                 showStatus={false} 
                 stopOnHover={false}
-                interval={15000}
+                interval={10000}
             >
                 <div className={'merck-news'}>
                     <img src={title}/>
